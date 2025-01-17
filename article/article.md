@@ -158,3 +158,26 @@ Despite its scale, Netflix still follows the same basic protocols established in
 This same architecture applies to smaller web services, like JAMB or similar platforms, demonstrating the timeless effectiveness of these foundational protocols.
 
 ![A Sketch](https://github.com/PetJs/How-the-web-works/blob/main/research/sketch%20of%20netflix%20web%20architecture.PNG)
+
+# Conclusion
+
+The web has evolved significantly since its inception by Tim Berners-Lee in 1989. From its humble beginnings as a simple information-sharing platform built with HTML, it has grown into a sophisticated ecosystem of protocols, technologies, and services. Understanding web architecture and protocols is crucial for modern developers and technologists, as these fundamentals power everything from simple websites to complex applications like Netflix.
+
+As the web continues to evolve foundational elements like HTTPS, HTML and DNS remain crucial to understanding how web services are built and maintained, ensuring reliable and secure information delivery across the internet.
+
+---
+
+# References
+
+1. Web Architecture  
+   - [Ryte Wiki: Web Architecture](https://en.ryte.com/wiki/Web_Architecture/)
+
+2. Domain Name System (DNS)  
+   - [Mozilla Developer Network: DNS](https://developer.mozilla.org/en-US/docs/Glossary/DNS)
+
+3. HTML (HyperText Markup Language)  
+   - [Mozilla Developer Network: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+   - [GeeksforGeeks: HTML Basics](https://www.geeksforgeeks.org/html-basics/)
+
+4. HTTP and HTTPS  
+   - [GeeksforGeeks: Difference between HTTP and HTTPS](https://www.geeksforgeeks.org/difference-between-http-and-https/)
