@@ -74,7 +74,7 @@ In essence, **HTTPS** is a combination of **HTTP** with encryption conventions (
 
 **HTML** stands for **HyperText Markup Language**. It is the standard language used to create and structure content on the web. As the most fundamental building block of the web, HTML instructs browsers on how to display text, links, images, and other forms of multimedia on a webpage.
 
-![Bubble Text](https://github.com/PetJs/How-the-web-works/blob/main/research/bubble text.jpg)
+![Bubble Text](https://github.com/PetJs/How-the-web-works/blob/main/research/bubble%20text.png)
 
 ---
 
@@ -115,3 +115,46 @@ Below is a sample code that demonstrates the basics of HTML:
     <a href="http://info.cern.ch/hypertext/WWW/TheProject.html">Link to the first webpage</a>
   </body>
 </html>
+```
+
+![HTML preview](https://github.com/PetJs/How-the-web-works/blob/main/research/html%20source%20code%20preview.png)
+
+
+# DNS
+
+**DNS (Domain Name System)** is a hierarchical and decentralized naming system for internet-connected resources. DNS maintains a list of domain names along with the resources, such as IP addresses, that are associated with them.  
+What this protocol does is that it takes a domain name (such as `www.risevest/academy`) to a numeric IP address (such as `172.67.166.2`).
+
+---
+
+# How Web Protocols Work Together: The Case of Netflix
+
+![Netflix](https://github.com/PetJs/How-the-web-works/blob/main/research/netflix.jpg)
+
+If you’re wondering how web protocols work together to create a simple web service, let’s examine Netflix as an example.  
+Netflix is a streaming platform where users can stream, watch, and download movies. Here’s how it all comes together:
+
+The interface you see—featuring movies, the search button, and the cards displaying all the available content—is built using HTML and CSS.  
+- Netflix uses React, a JavaScript framework, for building dynamic and interactive components.  
+- However, when the final interface is rendered in your browser, it is displayed in HTML form.
+
+When you sign up, click the play button, or search for a movie, this interaction involves a web server:  
+1. **HTTPS Requests**:  
+   - When you take an action, such as searching for a movie, an HTTPS request is sent from your browser to Netflix's web server.  
+   - The server processes the request and sends back an HTTPS response containing the required data (e.g., search results).  
+2. **Client-Side Display**:  
+   - The browser uses the response to display the information or perform the requested action, like playing a movie.
+
+The **DNS (Domain Name System)** ensures your request is routed correctly:  
+- When you enter `www.netflix.com`, the DNS translates the domain name into an IP address.  
+- This directs your request to the nearest Content Delivery Network (CDN) or server.  
+- By splitting traffic among multiple servers, DNS reduces the load on individual servers and ensures fast, reliable access.
+
+Despite its scale, Netflix still follows the same basic protocols established in traditional web architecture. These include:  
+- **HTML and CSS** for content display.  
+- **HTTPS** for secure data transfer.  
+- **DNS** for routing and load distribution.  
+
+This same architecture applies to smaller web services, like JAMB or similar platforms, demonstrating the timeless effectiveness of these foundational protocols.
+
+![A Sketch](https://github.com/PetJs/How-the-web-works/blob/main/research/sketch%20of%20netflix%20web%20architecture.PNG)
