@@ -10,9 +10,9 @@ Popular web services like Netflix, Amazon, Google utilize advance web technologi
 - HTTPS is more secure than HTTP. This is what modern web services follows, to add series of security layers to their web services
 
 ## Repository Guide
-- **`research/`** : Contains all the images and links used in the article. It contains references to external resources
-- **`article`** : Contains **`article.md`** which is a markdown format for the article text
-- **`code`** : Contains **`index.html`** which is a sample HTML file demonstrating basic markup and web page
+- **[research/](./research/)** : Contains all the images and links used in the article. It contains references to external resources
+- **[article/](./article/)** : Contains **[**`article.md`**](./article/article.md)** which is a markdown format for the article text
+- **[code/](./code/)** : Contains **[**`index.html`**](./code/index.html)** which is a sample HTML file demonstrating basic markup and web page
 
 ---
 Feel free to explore the repository and its content!
