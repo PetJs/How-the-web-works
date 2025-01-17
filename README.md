@@ -14,5 +14,8 @@ Popular web services like Netflix, Amazon, Google utilize advance web technologi
 - **[article/](./article/)** : Contains **[**`article.md`**](./article/article.md)** which is a markdown format for the article text
 - **[code/](./code/)** : Contains **[**`index.html`**](./code/index.html)** which is a sample HTML file demonstrating basic markup and web page
 
+## Published Article
+Here is a link to the published article on Medium [Fagoroye Peter Article](https://medium.com/@peterfagoroye76/how-the-web-works-and-web-protocols-how-popular-services-are-implemented-f3c4a717ed6a)
+
 ---
 Feel free to explore the repository and its content!
